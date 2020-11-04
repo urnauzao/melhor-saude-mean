@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "5f8f72b7272a1765309699e2"
+  },
+  "clinica_id": "1",
+  "nome": "Dra. Ariane Cristina Miranda ",
+  "idade": 34,
+  "especializacao": "Odontologia Geral",
+  "preco_consulta": 200,
+  "telefone": "+55 (11) 4214-0061",
+  "email": "drari_1986@gmail.com",
+  "whatsapp": 5511985212039,
+  "foto": "https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/ebd7b8/ebd7b883bc0738ba2f7881f9bd66e4dc_large.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0abb3100eeb5b0c8ed593"
+  },
+  "nome": "Zack Mounsey",
+  "idade": 64,
+  "especializacao": "Northstar RxLLC",
+  "preco_consulta": 105.56,
+  "telefone": "+353 (969) 563-5095",
+  "email": "zmounsey0@de.vu",
+  "whatsapp": 6069277643,
+  "foto": "http://dummyimage.com/250x250.jpg/dddddd/000000",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0ac2f42bd415db422a660"
+  },
+  "nome": "Zack Mounsey",
+  "idade": 64,
+  "especializacao": "Northstar RxLLC",
+  "preco_consulta": 105.56,
+  "telefone": "+353 (969) 563-5095",
+  "email": "zmounsey0@de.vu",
+  "whatsapp": 6069277643,
+  "foto": "http://dummyimage.com/250x250.jpg/dddddd/000000",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0ac59e5d4dbaca4b77704"
+  },
+  "nome": "Urnauzao",
+  "idade": 64,
+  "especializacao": "Northstar RxLLC",
+  "preco_consulta": 105.56,
+  "telefone": "+353 (969) 563-5095",
+  "email": "zmounsey0@de.vu",
+  "whatsapp": 6069277643,
+  "foto": "http://dummyimage.com/250x250.jpg/dddddd/000000",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0ae562386dfb1946b5bfc"
+  },
+  "nome": "Zack Mounsey",
+  "idade": 64,
+  "especializacao": "Northstar RxLLC",
+  "preco_consulta": 105.56,
+  "telefone": "+353 (969) 563-5095",
+  "email": "zmounsey0@de.vu",
+  "whatsapp": 6069277643,
+  "foto": "http://dummyimage.com/250x250.jpg/dddddd/000000",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0ae562386dfb1946b5bfd"
+  },
+  "nome": "Zack Mounsey",
+  "idade": 64,
+  "especializacao": "Northstar RxLLC",
+  "preco_consulta": 105.56,
+  "telefone": "+353 (969) 563-5095",
+  "email": "zmounsey0@de.vu",
+  "whatsapp": 6069277643,
+  "foto": "http://dummyimage.com/250x250.jpg/dddddd/000000",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0aed32386dfb1946b5bfe"
+  },
+  "nome": "Zack Mounsey",
+  "idade": 64,
+  "especializacao": "Northstar RxLLC",
+  "preco_consulta": 105.56,
+  "telefone": "+353 (969) 563-5095",
+  "email": "zmounsey0@de.vu",
+  "whatsapp": 6069277643,
+  "foto": "http://dummyimage.com/250x250.jpg/dddddd/000000",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa20bfe2b31b715bc87efdc"
+  },
+  "nome": "Julio Cesar Urnau de Almeida",
+  "idade": 25,
+  "especializacao": "Tecnico em Informatica",
+  "preco_consulta": 211,
+  "telefone": "1199999-0000",
+  "email": "imidias@teste.com",
+  "whatsapp": 5511999107905,
+  "foto": "https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/27b4c2/27b4c2c48dca4898f8fa9d0a7cd7614c_large.jpg",
+  "__v": 0
+}]

@@ -1,0 +1,10 @@
+<div class="servico-list">
+    <div 
+        *ngFor="let servico of servicos | async"
+        class="servico-card">
+        <!-- <div class="servico-card__rating">{{servico.preco_consulta}}</div> -->
+        <img class="servico-card__photo" [src]="servico.imagem" [alt]="servico.nome" />
+        <div class="servico-card__title">{{servico.nome}}</div>
+        <div class="servico-card__subtitle">{{servico.descricao}}</div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<!-- <p>list-medicos works!</p> -->
+
+<div class="medico-list">
+    <div 
+        *ngFor="let medico of medicos | async"
+        class="medico-card">
+        <div class="medico-card__rating">{{medico.preco_consulta}}</div>
+        <img class="medico-card__photo" [src]="medico.foto" [alt]="medico.nome" />
+        <div class="medico-card__title">{{medico.nome}}</div>
+        <div class="medico-card__subtitle">{{medico.especializacao}}</div>
+    </div>
+</div>
+<!-- <div class="container">
+    <div class="list">
+        <div class="list-item">
+            <figure class="list-figure">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/6136b7AfdUL._SL1500_.jpg" alt="Mario">
+            </figure>
+            <div class="list-description">
+                <p>descricao</p>
+            </div>
+        </div>
+    </div>
+</div> -->

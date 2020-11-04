@@ -1,0 +1,10 @@
+<div class="clinica-list">
+    <div 
+        *ngFor="let clinica of clinicas | async"
+        class="clinica-card">
+        <!-- <div class="clinica-card__rating">{{clinica.preco_consulta}}</div> -->
+        <img class="clinica-card__photo" [src]="clinica.url_imagem" [alt]="clinica.nome" />
+        <div class="clinica-card__title">{{clinica.nome}}</div>
+        <div class="clinica-card__subtitle">{{clinica.descricao}}</div>
+    </div>
+</div>

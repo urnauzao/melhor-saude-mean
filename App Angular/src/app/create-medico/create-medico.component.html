@@ -1,0 +1,32 @@
+<div>
+    <h3>Adicionar Novo Médico</h3>
+</div>
+<!-- routerLink='/medicos' -->
+<form class="example-container" [formGroup]="medicoForm" (ngSubmit)="addMedico(medicoForm.value)">
+    <mat-form-field>
+        <input matInput name="nome" placeholder="Nome do Medico" formControlName="nome">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="idade" placeholder="Idade do Medico" formControlName="idade">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="especializacao" placeholder="Especilização do Medico" formControlName="especializacao">
+    </mat-form-field>
+    <mat-form-field>
+        <textarea  matInput name="preco_consulta" placeholder="Preço da consulta do Medico" formControlName="preco_consulta"></textarea>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="telefone" placeholder="Telefone do Medico" formControlName="telefone">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="email" placeholder="Email do Medico" formControlName="email">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="whatsapp" placeholder="Whatsapp do Medico" formControlName="whatsapp">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput name="foto" placeholder="Link de Imagem do Medico" formControlName="foto">
+    </mat-form-field>
+
+    <button type="submit" [disabled]="!medicoForm.valid" mat-button color="primary" >Adicionar</button>
+</form>
